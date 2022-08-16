@@ -19,6 +19,34 @@ permalink: /2017/egzamin/1/
   funkcjami wymiernymi (czyli ilorazami wielomianów), to \(A \bigodot B\) też jest funkcją wymierną. 
   <i> Wskazówka:</i> jakie ciągi \( \langle a_{n} \rangle\) mają wymierną funkcję tworzącą \(A(x)\)?
 </p>
+
+<div data-collapse>
+  <h4 class="collapsible">Rozwiązanie</h4>
+  <div class="solution">
+    <p>
+      <p>
+        Funkcja tworząca \(A(x)\) jest funkcją wymierną wtedy i tylko wtedy, gdy \(a(n)\) jest ciągiem opisywanym przez równanie rekurencyjne liniowe.
+      </p>
+      <p>
+      <i>Dowód:</i>
+        <p>
+          \(1^{\circ}\) "\(\rightarrow\)"
+          <br>
+          Niech \(a_n\) będzie liniowo rekurencyjna. Wtedy mamy:
+          \(a_n = \alpha_1 a_{n-1} + \alpha_2 a_{n-2} + ... + \alpha_k a_{n-k} + W\)  (\(W\) - warunki brzegowe). Stwórzmy z tego funkcję tworzącą:
+          \(A(x) = \alpha_1 x A(x) + \alpha_2 x^2 A(x) + ... + \alpha_k x^k A(x) + W'\). (\(W'\) - warunki brzegowe po przekształceniach) 
+          \(A(x) = \frac{W`}{\alpha_1 x + \alpha_2 x^2 + ... + \alpha_k x^k}\) - oczywiście jest to funkcja wymierna.
+        </p>
+        <p>
+          \(2^{\circ}\) "\(\leftarrow\)"
+          <br>
+          
+        </p>
+      </p>
+    </p>
+  </div>
+</div>
+
 ---
 
 ### Zadanie 3
